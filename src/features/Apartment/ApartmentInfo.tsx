@@ -101,7 +101,7 @@ const ApartmentInfo = () => {
         <p className="text-xl font-semibold text-black pb-1 sm:pb-2">
           Thông tin người thuê
         </p>
-        <div className="flex flex-wrap justify-between gap-y-2">
+        <div className="flex flex-wrap justify-between gap-2">
           <div className="flex items-start gap-2">
             <Image
               src={"/images/home.svg"}
