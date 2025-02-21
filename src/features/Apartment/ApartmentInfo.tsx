@@ -4,12 +4,15 @@ import React from "react";
 const ApartmentInfo = () => {
   return (
     <div className="text-left text-[#450805]">
-      <Image
-        src={"/images/examples/apartment.png"}
-        width={467}
-        height={266}
-        alt="apartment"
-      />
+      <div className="w-max mx-auto">
+        <Image
+          src={"/images/examples/apartment.png"}
+          width={467}
+          height={266}
+          alt="apartment"
+        />
+      </div>
+
       <div className="sm:py-3 py-2">
         <p className="text-xl font-semibold text-black">Thông tin căn hộ</p>
         <p className="py-1 sm:py-2">
