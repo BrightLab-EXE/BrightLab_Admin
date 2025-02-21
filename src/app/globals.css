@@ -2,20 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: black;
+  background: linear-gradient(304.65deg, #ff4e18 -21.13%, #fff4ed 114.71%);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }

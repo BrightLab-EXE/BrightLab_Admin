@@ -1,0 +1,31 @@
+.datepicker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.custom-input {
+  display: flex;
+  align-items: center;
+  background-color: #fdf4f0;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5a2d17;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #e67e22;
+}
+
+.calendar-icon {
+  color: #e67e22;
+  margin-left: 10px;
+  cursor: pointer;
+}
